@@ -2,7 +2,7 @@
 
 function Home() {
   return (
-    <main className="flex flex-col md:flex-row items-center justify-between px-8 py-16 bg-white rounded-3xl shadow-lg mt-8 mx-auto max-w-6xl">
+    <main className="flex flex-col md:flex-row items-center justify-between px-8 py-16 bg-white rounded-3xl shadow-lg mt-8 w-full">
       <section className="flex-1 space-y-6">
         <div className="inline-flex items-center bg-pink-100 text-pink-700 px-4 py-1 rounded-full text-sm font-medium mb-2">
           <span role="img" aria-label="grocery">🛒</span> Grocery Deliver Service

@@ -29,7 +29,7 @@ const menuItems = [
 
 function Menu() {
   return (
-    <div className="p-8 max-w-6xl mx-auto">
+    <div className="p-8 w-full">
       <h2 className="text-4xl font-extrabold mb-8 text-center text-gray-900">Menu</h2>
       <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {menuItems.map((item, idx) => (
